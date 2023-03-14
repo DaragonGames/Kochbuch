@@ -1,14 +1,19 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
-    addSideDishToSaveData(createRecipe())
+    var usedRecipe:MutableList<Recipe> = queryTool().FindRecipes(readSaveData(), listOf("Kartoffel Salad","Falafel", "Nugget Burger", "Chinese Noodles", "Nudelsalad"))
+    for (ing in queryTool().CombineRecipesIngredients(usedRecipe)) {
+        if (!ing.optional)
+        {
+            ing.print()
+        }
+    }
 }
 
 
 
 fun createRecipe():Recipe
 {
-    var tags = listOf<String>()
-    var spices = listOf<String>("Gemüsebrühe", "Petersilie", "Dill",
+    var tags = mutableListOf<String>()
+    var spices = mutableListOf<String>("Gemüsebrühe", "Petersilie", "Dill",
         "Agaven Dicksaft", "Salz", "Pfeffer", "Senf", )
     var ingredients = mutableListOf(
         Ingredient("Kartoffel"),

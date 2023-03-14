@@ -402,9 +402,7 @@
       ],
       "isSideDish": false,
       "needsSideDish": true
-    }
-  ],
-  "recipesSideDishes": [
+    },
     {
       "name": "Kartoffel Salad",
       "ingredients": [
@@ -422,13 +420,13 @@
         },
         {
           "name": "Veggy Majo",
-          "optional": true,
+          "optional": false,
           "amount": 1.0,
           "measurementUnit": "Portion"
         },
         {
           "name": "Essiggrurken",
-          "optional": true,
+          "optional": false,
           "amount": 1.0,
           "measurementUnit": "Portion"
         }
