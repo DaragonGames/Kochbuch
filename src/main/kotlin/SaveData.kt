@@ -25,3 +25,10 @@ fun addRecipeToSaveData(recipe: Recipe)
     data.recipes.add(recipe)
     writeSaveData(data)
 }
+
+fun addSideDishToSaveData(recipe: Recipe)
+{
+    val data = readSaveData()
+    data.recipesSideDishes.add(recipe)
+    writeSaveData(data)
+}

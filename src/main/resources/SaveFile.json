@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "name": "Spaghetti Bolognese veggy",
+      "name": "Spaghetti Bolognese",
       "ingredients": [
         {
           "name": "Spaghetti",
@@ -60,6 +60,390 @@
         "Knoblauch"
       ],
       "isSideDish": false,
+      "needsSideDish": false
+    },
+    {
+      "name": "Nudelsalad",
+      "ingredients": [
+        {
+          "name": "Nudeln",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Mandel Joghurt",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Veggy Majo",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Paprika",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Tomate",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Gurke",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Karotte",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Mais",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Erbsen",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Ei",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Käse",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Essiggrurken",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        }
+      ],
+      "tags": [
+        "healthy"
+      ],
+      "spices": [
+        "Petersilie",
+        "Dill",
+        "Agaven Dicksaft",
+        "Salz",
+        "Pfeffer",
+        "Knoblauchpulver",
+        "Senf",
+        "Essig"
+      ],
+      "isSideDish": false,
+      "needsSideDish": false
+    },
+    {
+      "name": "Curry",
+      "ingredients": [
+        {
+          "name": "Reis",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Mandelmilch",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Öl",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Kartoffel",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Karotte",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Mais",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Kichererbsen",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Tofu",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        }
+      ],
+      "tags": [],
+      "spices": [
+        "Currypulver",
+        "Currypaste",
+        "Sambal Olek",
+        "Salz",
+        "Pfeffer",
+        "Gemüsebrühe"
+      ],
+      "isSideDish": false,
+      "needsSideDish": false
+    },
+    {
+      "name": "Nugget Burger",
+      "ingredients": [
+        {
+          "name": "Burger Brötchen",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Veggy Nuggets",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Öl",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Salad",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Tomate",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "BBQ Sauce",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Veggy Majo",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Siracha",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Gurke",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Essiggurken",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "jalapenos",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        }
+      ],
+      "tags": [
+        "Fastfood"
+      ],
+      "spices": [],
+      "isSideDish": false,
+      "needsSideDish": false
+    },
+    {
+      "name": "Chinese Noodles",
+      "ingredients": [
+        {
+          "name": "Chinese Noodles",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Karotte",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Bambus Sproßen",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Frühlingszwiebeln",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Ei",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Öl",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Soja Sauce",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Mais",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Champignons",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Paprika Grün",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        }
+      ],
+      "tags": [],
+      "spices": [
+        "Salz",
+        "Pfeffer",
+        "Knoblauch"
+      ],
+      "isSideDish": false,
+      "needsSideDish": false
+    },
+    {
+      "name": "Falafel",
+      "ingredients": [
+        {
+          "name": "Falafel",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Öl",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "BBQ Sauce",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Braune Sauce",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        }
+      ],
+      "tags": [],
+      "spices": [
+        "Gemüsebrühe"
+      ],
+      "isSideDish": false,
+      "needsSideDish": true
+    }
+  ],
+  "recipesSideDishes": [
+    {
+      "name": "Kartoffel Salad",
+      "ingredients": [
+        {
+          "name": "Kartoffel",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Mandel Joghurt",
+          "optional": false,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Veggy Majo",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        },
+        {
+          "name": "Essiggrurken",
+          "optional": true,
+          "amount": 1.0,
+          "measurementUnit": "Portion"
+        }
+      ],
+      "tags": [],
+      "spices": [
+        "Gemüsebrühe",
+        "Petersilie",
+        "Dill",
+        "Agaven Dicksaft",
+        "Salz",
+        "Pfeffer",
+        "Senf"
+      ],
+      "isSideDish": true,
       "needsSideDish": false
     }
   ]
