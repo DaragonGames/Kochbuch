@@ -2,7 +2,7 @@ import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import java.io.File
 
-data class SaveData(val recipes: MutableList<Recipe>)
+data class SaveData(val recipes: MutableList<Recipe>, val recipesSideDishes: MutableList<Recipe>)
 
 fun readSaveData(path: String = "./src/main/resources/SaveFile.json"):SaveData
 {
